@@ -1,1 +1,19 @@
-<fa-icon [icon]="faCoffee"></fa-icon>
+<div class="container">
+  <p-card
+    header="Inicio de Sesion"
+    [style]="{ width: '360px'}"
+    styleClass="p-card-shadow"
+  >
+    <span class="p-float-label">
+      <input id="email" type="text" pInputText [(ngModel)]="email" />
+      <label for="float-input">Correo Electronico</label>
+    </span>
+
+    <span class="p-float-label" style="margin-top: 30px;">
+      <input id="pass" type="text" pInputText [(ngModel)]="pass" />
+      <label for="float-input">Contraseña</label>
+    </span>
+
+    <ng-template pTemplate="footer"> </ng-template>
+  </p-card>
+</div>

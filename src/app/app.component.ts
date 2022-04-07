@@ -8,5 +8,6 @@ import { faUser } from '@fortawesome/free-solid-svg-icons';
 })
 export class AppComponent {
   faCoffee = faUser;
-  title = 'fire';
+  email:string='';
+  pass:string='';
 }
