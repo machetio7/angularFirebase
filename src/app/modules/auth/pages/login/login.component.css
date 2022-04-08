@@ -1,0 +1,90 @@
+.container {
+    background-color: #06386d;
+    width: 100vw;
+    height: 100vh;
+}
+.container__login {
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container__login__rightSquare {
+    width: 36%;
+    height: 85vh;
+    border: 0.5rem solid #6f8491;
+    position: relative;
+    z-index: 10;
+}
+
+.container__login__centralSqure {
+    z-index: 20;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-left: -270px;
+    border-radius: 25px;
+    -webkit-box-shadow: -1px 0px 18px 3px rgba(0, 0, 0, 0.4);
+    box-shadow: -1px 0px 18px 3px rgba(0, 0, 0, 0.4);
+    position: relative;
+    background-color: #ffffff;
+    width: 80vh;
+    height: 70vh;
+    overflow: hidden;
+}
+
+.centralSqure__img {
+    background-color: black;
+    position: relative;
+    margin-top: -600px;
+    height: 500px;
+    width: 500px;
+    -moz-border-radius: 250px;
+    -webkit-border-radius: 250px;
+    border-radius: 250px;
+    background-image: url("../../../../../assets/images/login_bg_circle.jpg");
+    background-repeat: no-repeat;
+    background-position: center 250px;
+    background-size: contain;
+    animation: circle 2s linear;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+@keyframes circle {
+    0% {
+        opacity: 0;
+    }
+    30% {
+        opacity: 0.3;
+    }
+    68%,
+    72% {
+        opacity: 0.6;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.centralSqure__img__icon{
+    position: relative;
+    margin-top: -50px;
+    background-color: #06386d;
+    height: 100px;
+    width: 100px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 90%;
+}
